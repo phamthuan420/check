@@ -11,7 +11,7 @@ const FileTable = ({ directoryId }) => {
   useEffect(() => {
     const fetchFiles = async () => {
       try {
-        const response = await axios.get(`/public-api/directory/${directoryId}/file`, {
+        const response = await axios.get(`https://www.helprange.com/public-api/directory/${directoryId}/file`, {
           headers: { 'Authorization': 'xxftwft1uud79b0pm7g4ohl0' }
         });
         setFiles(response.data.files);
