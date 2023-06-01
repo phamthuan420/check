@@ -23,7 +23,7 @@
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "https://www.helprange.com",
+  "proxy": "https://phamthuan420.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
