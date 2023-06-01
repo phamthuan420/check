@@ -8,7 +8,7 @@ const FileStatistics = ({ fileId }) => {
   useEffect(() => {
     const fetchStatistics = async () => {
       try {
-        const response = await axios.get(`/public-api/file/${fileId}/statistics`, {
+        const response = await axios.get(`https://www.helprange.com/public-api/file/${fileId}/statistics`, {
           headers: { 'Authorization': 'xxftwft1uud79b0pm7g4ohl0' }
         });
         setStatistics(response.data);
